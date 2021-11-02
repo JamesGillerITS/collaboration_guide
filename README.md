@@ -1,5 +1,7 @@
 # Git Collaboration Guide
 
+Below are some simple steps to collaborate using Git and GitHub. Some content may require additional explanation. Please use the Issues section of this repository to suggest additional explanatory text, examples, clarifications etc. Alternatively, contribute your knowledge and expierence of collaborating with Git and GitHub by creating a pull request.
+
 ## 1. Assign a team member to create a GitHub repository
 
 The assigned team member is also responsible for changing the initial settings for the repository. See [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features) for documentation on managing the features and settings of a GitHub repository.
