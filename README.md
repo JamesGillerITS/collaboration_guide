@@ -21,3 +21,7 @@ An individual should checkout the topic branch to make changes relevant to the i
 A commit may include changes to multiple files as long as the changes are all logically related. If a branch represents a high-level item of work, then a commit represents the completion of a discrete task that is part of that item of work. For example, in a branch dedicated to preparing the input for a model, the addition of a new .CSV file containing a dataset, and the implementation of new code to read the dataset into a variable may go into the same commit. Additional code to process the data should be saved to a separate commit.
 
 One should also consider the potential for reverting to a previous state of the project when making a commit. Answer the question "would I (or a teammate) want to roll back a subset of these changes and keep the rest?" before committing. If the answer is yes, then you should only include the changes that would be rolled back together in the commit.
+
+## 5. Create pull requests
+
+When the time is right to combine the work of multiple people, or integrate new changes into a recent state of the project, use pull requests to merge branches together in the GitHub repository. See [here](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for a guide to creating pull requests.
